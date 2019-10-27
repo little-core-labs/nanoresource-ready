@@ -1,0 +1,33 @@
+{
+  "name": "nanoresource-ready",
+  "version": "0.0.0",
+  "description": "Wait for a nanoresource to be ready (opened) and call a callback.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape test.js"
+  },
+  "keywords": [
+    "nanoresource",
+    "ready",
+    "callback",
+    "opened"
+  ],
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nanoresource": "^1.2.0",
+    "nyc": "^14.1.1",
+    "tape": "^4.11.0"
+  },
+  "dependencies": {
+    "nanoassert": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/little-core-labs/nanoresource-ready.git"
+  },
+  "bugs": {
+    "url": "https://github.com/little-core-labs/nanoresource-ready/issues"
+  },
+  "homepage": "https://github.com/little-core-labs/nanoresource-ready#readme"
+}
