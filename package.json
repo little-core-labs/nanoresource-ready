@@ -1,6 +1,6 @@
 {
   "name": "nanoresource-ready",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Wait for a nanoresource to be ready (opened) and call a callback.",
   "main": "index.js",
   "scripts": {
